@@ -1,0 +1,3 @@
+function share_health:score/install
+
+gamerule doImmediateRespawn false
