@@ -1,4 +1,5 @@
 
+execute as @a[tag= !share_health-target] run tag @s add share_health-target
 # 초기화
 execute as @e[tag= share_health-target] if score @s healthToApply matches 0.. run function share_health:event/rolback_max_health
 # 스코어 셋
